@@ -14,7 +14,7 @@ html {
 body {
   font-size: 1.5rem;
   margin: 50px 20px 20px 20px;
-  background-color: #FAFAFA;
+  background-color: hsl(0, 0%, 98%);
 }
 
 .attribution { font-size: 11px; text-align: center; }
@@ -79,18 +79,22 @@ header p:nth-child(3) {
 }
 
 .card--container .card1 {
-  border-top: solid 5px #49CDCD;
+  border-top: solid 5px hsl(180, 62%, 55%);
 }
 
 .card--container .card2 {
-  border-top: solid 5px #D8575A;
+  border-top: solid 5px hsl(0, 78%, 62%);
 }
 
 .card--container .card3 {
-  border-top: solid 5px #EFAB58;
+  border-top: solid 5px hsl(34, 97%, 64%);
 }
 
 .card--container .card4 {
-  border-top: solid 5px #5898E0;
+  border-top: solid 5px hsl(212, 86%, 64%);
   margin-bottom: 55px;
+}
+
+@media (min-witdh: 1440px) {
+
 }
