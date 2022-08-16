@@ -14,6 +14,7 @@ html {
 body {
   font-size: 1.5rem;
   margin: 50px 20px 20px 20px;
+  background-color: #FAFAFA;
 }
 
 .attribution { font-size: 11px; text-align: center; }
@@ -22,8 +23,8 @@ body {
 .header--tittle {
   text-align: center;
   width: 100%;
-  /*margin: 25px 20px;*/
-
+  margin-bottom: 45px;
+  color: #4E4D5F;
 }
 
 header p:nth-child(1) {
@@ -50,13 +51,46 @@ header p:nth-child(3) {
 }
 
 .card--container .card {
+  background-color: #FFF;
   width: 100%;
   height: 200px;
-  border: solid 1px;
-  padding: 25px;
-
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 10px 13px 9px -4px rgba(0,0,0,0.12);
+  border-radius: 4px;
+  color: #4E4D5F;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .card--container .card p {
   font-size: 1.2rem;
+  color: #A5A3A8;
+  margin: 5px 0 5px 0;
+}
+
+.card--container .card img {
+  width: 50px;
+  height: 50px;
+  align-self: flex-end;
+  margin-top: 20px;
+
+}
+
+.card--container .card1 {
+  border-top: solid 5px #49CDCD;
+}
+
+.card--container .card2 {
+  border-top: solid 5px #D8575A;
+}
+
+.card--container .card3 {
+  border-top: solid 5px #EFAB58;
+}
+
+.card--container .card4 {
+  border-top: solid 5px #5898E0;
+  margin-bottom: 55px;
 }
